@@ -1,0 +1,304 @@
+body {
+
+    font-family: 'Cabin', sans-serif;
+    background-color: #e6ecf0;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+header .navigation {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    background-color: white;
+    z-index: 1000;
+}
+
+.container-menu {
+    position: relative;
+    margin: auto;
+    left: 50%;
+    display: inline-block;
+}
+
+.icon-bird {
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    font-size: 24px;
+    top: 18px;
+}
+
+.ulnav {
+    position: absolute;
+}
+
+.ulnav, li {
+    display: inline-block;
+    height: 26px;
+    margin: 11px 0 0 -26px;
+    vertical-align: top;
+    margin-left: 13px;
+    padding: 10px;
+}
+
+.ulnav li a {
+    color: #66757f;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+ul li a span {
+    margin-left: 5px;
+}
+
+.nav-extras {
+    align-items: center;
+    display: inline-flex;
+    height: 100%;
+}
+
+.pull-right {
+    position: relative;
+    right: 5%;
+    float: right;
+    text-align: left
+}
+
+.global-search {
+    float: left;
+    height: 33px;
+    margin: 7px 15px 0 0;
+    font-size: 12px;
+    width: 221px;
+    position: relative;
+}
+
+.navigation-right {
+    position: relative;
+    top: 10px;
+    padding: 0;
+    margin: 15px 0 15px 0;
+    align-items: center;
+    display: inline-flex;
+    height: 100%;
+    float: left;
+}
+
+.img-circle {
+    position: absolute;
+    top: 5px;
+}
+
+.search-input {
+    background-color: #f5f8fa;
+    border-radius: 21px;
+    border: 1px solid #e6ecf0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #14171a;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 16px;
+    padding: 8px 32px 8px 12px;
+    transition: all .2s ease-in-out;
+    width: 100%;
+}
+
+.search-input:focus {
+    border: 2px solid #1da1f2;
+    outline: none;
+}
+
+.icon-search {
+    color: #66757f;
+    position: absolute;
+    display: block;
+    top: 6px;
+    right: 3px;
+    width: 26px;
+    font-size: 16px;
+}
+
+#global-button-twitter {
+    position: relative;
+    font-weight: 600;
+    left: 30px;
+    bottom: 16px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #D02B55;
+    border-color: #D02B55;
+}
+
+/*Comienza secciones*/
+
+.page-container {
+    padding: 100px 14px 15px;
+    position: relative;
+}
+
+.dashboard-left {
+    float: left;
+    width: 290px;
+}
+
+.content-main {
+    float: left;
+    width: 40%;
+    margin-left: 15px;
+    height: 40px;
+    position: relative;
+    top:5px;
+}
+
+.input-tweet{
+    width: 420px;
+    background-color: #FAE9EE;
+    padding: 10px 12px;
+}
+
+.top-timeline {
+    float: left;
+}
+
+.tweet-content {
+    position: relative;
+    left: 45px;
+    background-color: white;
+    /*min-height: 20px;*/
+    /*max-height: 20px;*/
+    border: 1px solid #e6ecf0;
+    border-radius: 8px;
+    line-height: 20px;
+    height: 36px;
+    width: 80%;
+
+}
+
+.tweet-content div{
+    color: #D02B55;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+/*Aquí se coloca los comentarios*/
+
+.input-tweet-focus {
+    width: 420px;
+    background-color: #FAE9EE;
+    padding: 10px 12px;
+    position: relative;
+    bottom:58px;
+}
+
+.tweet-content-focus {
+    position: relative;
+    left: 45px;
+    background-color: white;
+    /* min-height: 20px; */
+    /* max-height: 20px; */
+    border: 1px solid #e6ecf0;
+    border-radius: 8px;
+    line-height: 20px;
+    height: 100px;
+    width: 80%;
+}
+
+.top-timeline-focus {
+    float: left;
+}
+
+.tweet-content-focus div {
+    color: #D02B55;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.ulinf{
+    margin:0;
+}
+
+.liinf {
+    color: #D95576;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.textarea-coment {
+    position: relative;
+    width: 330px;
+    bottom: 32px;
+    border: none;
+    height: 95px;
+    resize: none;
+    font-family: 'Cabin', sans-serif;
+    font-size:16px;
+    color: #D02B55;
+    background-color: transparent;
+}
+
+#global-button-twitter-inf {
+    position: relative;
+    font-weight: 600;
+    left: 30px;
+    bottom: 5px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #D02B55;
+    border-color: #D02B55;
+}
+
+/*Aquí se guardan los comentarios*/
+
+.coment-box{
+    background-color: white;
+    height: auto;
+    width: 445px;
+}
+
+.ulbox {
+    text-decoration: none;
+    padding: 0;
+}
+
+.coment .ulbox, .libox {
+    display: block;
+    height: 100%;
+    font-weight: 0;
+}
+
+
+.container-comment .img {
+    float: left;
+}
+
+.titulo {
+    position: relative;
+    left:10px;
+}
+
+.titulo span {
+    margin-left: 15px;
+}
+.parrafo {
+    position: relative;
+    left: 10px;
+
+}
+
